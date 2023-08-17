@@ -234,7 +234,7 @@ class TritonPart
       int num_vertices_threshold_ilp,
       int global_net_threshold);
 
- private:
+ protected:
   // Main partititon function
   void MultiLevelPartition();
 
